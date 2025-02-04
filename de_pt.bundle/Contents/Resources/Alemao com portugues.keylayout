@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--German with ptBR-->
-<!--Last edited by Ukelele version 396 on 2025-02-04 at 17:13 (GMT+1)-->
-<keyboard group="126" id="-3519" name="Alemao com portugues" maxout="1">
+<!--Last edited by Ukelele version 396 on 2025-02-04 at 17:21 (GMT+1)-->
+<keyboard group="126" id="-16002" name="Alemao com portugues" maxout="1">
     <layouts>
         <layout first="0" last="4" mapSet="ANSI" modifiers="commonModifiers"/>
         <layout first="5" last="5" mapSet="JIS" modifiers="commonModifiers"/>
@@ -1827,7 +1827,7 @@
             <when state="s4" output="Ÿ"/>
         </action>
         <action id="^">
-            <when state="none" next="s1"/>
+            <when state="none" output="&#x003C;"/>
             <when state="1" output="&#x003C;"/>
             <when state="s1" output="^"/>
         </action>
@@ -1880,7 +1880,7 @@
             <when state="s4" output="ÿ"/>
         </action>
         <action id="|">
-            <when state="none" output="|"/>
+            <when state="none" output="„"/>
             <when state="1" output="„"/>
         </action>
         <action id="~">
@@ -1890,14 +1890,14 @@
             <when state="none" next="s4"/>
         </action>
         <action id="°">
-            <when state="none" output="°"/>
+            <when state="none" output="&#x003E;"/>
             <when state="1" output="&#x003E;"/>
         </action>
         <action id="´">
             <when state="none" next="s2"/>
         </action>
         <action id="„">
-            <when state="none" output="„"/>
+            <when state="none" output="|"/>
             <when state="1" output="|"/>
         </action>
     </actions>
