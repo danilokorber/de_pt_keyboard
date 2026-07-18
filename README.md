@@ -6,7 +6,50 @@ A custom macOS keyboard layout combining German (QWERTZ) with Portuguese charact
 
 - German QWERTZ base layout
 - Easy access to Portuguese accents (á, ã, ç, etc.)
+- Dead keys for combining accents with vowels
 - Works with macOS input sources
+
+## Custom Characters
+
+### Dead Keys (Accent Modifiers)
+
+Press the dead key first, then the letter to produce accented characters:
+
+| Dead Key | How to Type | + a | + e | + i | + o | + u | + n |
+|----------|-------------|-----|-----|-----|-----|-----|-----|
+| ´ (acute) | `´` | á | é | í | ó | ú | — |
+| ` (grave) | `Shift + ´` | à | è | ì | ò | ù | — |
+| ^ (circumflex) | `<` | â | ê | î | ô | û | — |
+| ¨ (umlaut) | `Option + U` | ä | ë | ï | ö | ü | — |
+| ~ (tilde) | `Option + N` | ã | — | — | õ | — | ñ |
+
+> **Tip:** Press `Space` after a dead key to output the accent character itself (e.g., `´` + `Space` = ´)
+
+### Option Key Shortcuts
+
+| Shortcut | Character | Description |
+|----------|-----------|-------------|
+| `Option + C` | ç | C-cedilla (lowercase) |
+| `Option + Shift + C` | Ç | C-cedilla (uppercase) |
+| `Option + Ä` | ã | A with tilde (direct) |
+| `Option + Ö` | õ | O with tilde (direct) |
+| `Option + E` | € | Euro sign |
+| `Option + Q` | @ | At sign |
+| `Option + 2` | ² | Superscript 2 |
+| `Option + 3` | ³ | Superscript 3 |
+| `Option + Y` | 👍🏻 | Thumbs up emoji |
+| `Option + X` | 😃 | Smiley emoji |
+
+### German Characters (Standard)
+
+These are available as on the standard German keyboard:
+
+| Key | Character |
+|-----|-----------|
+| `Ä` | ä / Ä |
+| `Ö` | ö / Ö |
+| `Ü` | ü / Ü |
+| `ß` | ß |
 
 ## Installation
 
